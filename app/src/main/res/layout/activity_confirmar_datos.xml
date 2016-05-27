@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.alan2.formularioapp.ConfirmarDatosActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/confirmar_titulo"
+        android:textAlignment="center"
+        android:textSize="22dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvConfirmarNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre Completo"
+        android:layout_marginTop="@dimen/margin_top_confirmar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/confirmar_fecha_nacimiento"
+            />
+
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:id="@+id/tvConfirmarFechaNac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12/23/4567 "
+             />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/confirmar_tel"
+            />
+
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:id="@+id/tvConfirmarTelefono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="55555333333 "
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/confirmar_email"
+            />
+
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:id="@+id/tvConfirmarEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="asdfg@ghjkj.com "
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/confirmar_Descripcion"
+            />
+
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:id="@+id/tvConfirmarDescripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="asdasdas dsadsadasda sdaf sag agsdag aga asdadfaFDf dsfadaf "
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnEditar"
+        android:layout_width="@dimen/boton_editar_height"
+        android:layout_height="wrap_content"
+        android:text="@string/editar_boton"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:theme="@style/BtnRaisedStyle"/>
+
+
+</LinearLayout>
